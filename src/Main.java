@@ -6,12 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Palindrome.isPalindrome("Madam, I’m Adam");
+        //Palindrome.isPalindrome("Madam, I’m Adam");
 
-        int[] array = {1, 0, 5, 13, 100, 3};
+        int[] array = {13, 1, 1, 13, 5, 5, 13, 13, 1, 2, 5, 13, 13, 3, 1, 13, 13};
         ArrayCheck.sumOfArrayElements(array);
 
-        Pie.biggestPieceOfPie();
+        //Pie.biggestPieceOfPie();
 
     }
 }

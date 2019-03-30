@@ -10,6 +10,11 @@ public class ArrayCheck {
         int sum = 0;
 
         for (int i = 0; i < array.length; i++) {
+            if (i != 0) {
+                if (array[i - 1] == 13) {
+                    continue;
+                }
+            }
             if (array[i] == 13) {
                 i++;
                 continue;
