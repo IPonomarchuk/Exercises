@@ -8,7 +8,7 @@ public class Main {
 
         //Palindrome.isPalindrome("Madam, I’m Adam");
 
-        int[] array = {13, 1, 1, 13, 5, 5, 13, 13, 1, 2, 5, 13, 13, 3, 1, 13, 13};
+        int[] array = {13, 1, 0, 13, 2, 3, 13, 13, 4, 5, 6, 0, 13, 0, 13};
         ArrayCheck.sumOfArrayElements(array);
 
         //Pie.biggestPieceOfPie();

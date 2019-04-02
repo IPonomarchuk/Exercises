@@ -17,7 +17,6 @@ public class ArrayCheck {
             }
             if (array[i] == 13) {
                 i++;
-                continue;
             } else {
                 sum = sum + array[i];
             }
